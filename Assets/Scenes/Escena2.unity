@@ -124,12 +124,12 @@ GameObject:
   - component: {fileID: 37652395}
   - component: {fileID: 37652394}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Panel_msj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &37652393
 RectTransform:
   m_ObjectHideFlags: 0
@@ -147,8 +147,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -9, y: -0.0000076294}
-  m_SizeDelta: {x: -550.7294, y: -597.52344}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -623.01855, y: -597.52344}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &37652394
 MonoBehaviour:
@@ -163,7 +163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.92941177}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -416,6 +416,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IngresoUsuario: {fileID: 2086399395}
+  textoMsj: {fileID: 2093627641}
+  cartelitoMsj: {fileID: 37652392}
 --- !u!4 &733479332
 Transform:
   m_ObjectHideFlags: 0
@@ -1154,8 +1156,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: 32}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0.000012398, y: 10}
+  m_SizeDelta: {x: 326.37625, y: 77.10654}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2093627641
 MonoBehaviour:
@@ -1178,7 +1180,7 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 30
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
